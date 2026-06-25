@@ -1,0 +1,51 @@
+RAG_cv/
+│
+├── data/
+│    └── fer2013/
+│         ├── train/<class>/*.jpg
+│         └── test/<class>/*.jpg
+│
+├── models/
+│    ├── generators/
+│    │      ├── img2text_gan.py        # new GAN for image->text
+│    │      ├── text2img_gan.py        # new GAN for text->image
+│    │      └── film.py
+│    │
+│    ├── discriminators/
+│    │      ├── img2text_disc.py
+│    │      └── text2img_disc.py
+│    │
+│    ├── clip/
+│    │      ├── clip_embedder.py
+│    │      └── clip_utils.py
+│    │
+│    ├── caption_decoder/
+│    │      └── transformer_decoder.py
+│    │
+│    └── __init__.py
+│
+├── datasets/
+│    ├── fer_loader.py                 # new loader for FER2013
+│    └── transforms.py
+│
+├── trainers/
+│    ├── train_img2text.py
+│    ├── train_text2img.py
+│    ├── losses.py
+│    └── utils.py
+│
+├── experiments/
+│    └── exp1/
+│         ├── checkpoints/
+│         ├── samples/
+│         └── logs/
+│
+├── scripts/
+│    ├── train_img2text.sh
+│    ├── train_text2img.sh
+│    ├── evaluate.py
+│    └── inference.py
+│
+├── requirements.txt
+├── train.py  # Optional master script to call both trainers
+└── README.md

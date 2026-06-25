@@ -1,0 +1,81 @@
+1️⃣ Setup Python Environment
+
+Open PowerShell and navigate to your project folder:
+
+cd H:\University sht\Deep Learning\RESEARCH\RAG_cv
+
+
+Create a virtual environment with access to system site packages (optional):
+
+python -m venv venv --system-site-packages
+
+
+Activate it:
+
+.\venv\Scripts\Activate.ps1
+
+2️⃣ Install Dependencies
+
+Install all required Python packages:
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+Check if CUDA is available:
+
+python -c "import torch; print('CUDA available:', torch.cuda.is_available()); print('Device name:', torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU')"
+
+
+If CUDA isn’t detected, make sure you installed the correct PyTorch version with CUDA support.
+
+3️⃣ Prepare Dataset
+
+Make sure FER2013 is structured like this:
+
+data/fer2013/
+├── train/<class>/*.jpg
+└── test/<class>/*.jpg
+
+
+No changes needed in your loader (fer_loader.py) if you follow this structure.
+
+4️⃣ Training
+a) Image → Caption GAN
+python trainers/train_img2text.py
+
+
+Saves checkpoints and logs to experiments/exp1/checkpoints/ and experiments/exp1/logs/.
+
+Sample captions will be saved to experiments/exp1/samples/.
+
+b) Caption → Image GAN
+python trainers/train_text2img.py
+
+
+Generates images from captions.
+
+Same checkpoint and sample directories.
+
+Both scripts use GPU if available; otherwise CPU. You can adjust batch size in the script if GPU memory is limited.
+
+5️⃣ Inference
+
+Run inference on test images:
+
+python scripts/inference.py --mode img2text --input data/fer2013/test/happy --output experiments/exp1/samples/inference
+python scripts/inference.py --mode text2img --input experiments/exp1/samples/inference/captions.txt --output experiments/exp1/samples/generated_images
+
+
+--mode can be img2text or text2img.
+
+--input points to the source (images or captions).
+
+--output is where results are saved.
+
+6️⃣ Optional: Benchmark with CLIP / Diffusion
+
+Use your CLIP encoder or diffusion scripts:
+
+python scripts/evaluate.py --mode clip --input experiments/exp1/samples/generated_images
+python scripts/evaluate.py --mode diffusion --input experiments/exp1/samples/gener

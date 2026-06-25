@@ -1,0 +1,915 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Training Image -> Text GAN on cuda
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 78675.32it/s]
+  Batch 100/898: D_loss=0.7168, G_loss=0.6902
+  Batch 200/898: D_loss=0.7380, G_loss=0.8114
+  Batch 300/898: D_loss=0.7179, G_loss=0.6804
+  Batch 400/898: D_loss=0.6977, G_loss=0.7561
+  Batch 500/898: D_loss=0.6973, G_loss=0.7468
+  Batch 600/898: D_loss=0.6904, G_loss=0.7313
+  Batch 700/898: D_loss=0.6952, G_loss=0.7195
+  Batch 800/898: D_loss=0.7007, G_loss=0.7343
+[Img2Text] Epoch 1/50 done - Avg D_loss: 0.6972, Avg G_loss: 0.7435
+  Batch 100/898: D_loss=0.7036, G_loss=0.7190
+  Batch 200/898: D_loss=0.6979, G_loss=0.7273
+  Batch 300/898: D_loss=0.6894, G_loss=0.7225
+  Batch 400/898: D_loss=0.6902, G_loss=0.7152
+  Batch 500/898: D_loss=0.6952, G_loss=0.6980
+  Batch 600/898: D_loss=0.6927, G_loss=0.6910
+  Batch 700/898: D_loss=0.6884, G_loss=0.7178
+  Batch 800/898: D_loss=0.6764, G_loss=0.7111
+[Img2Text] Epoch 2/50 done - Avg D_loss: 0.6924, Avg G_loss: 0.7158
+  Batch 100/898: D_loss=0.6932, G_loss=0.7078
+  Batch 200/898: D_loss=0.6888, G_loss=0.7451
+  Batch 300/898: D_loss=0.6962, G_loss=0.7267
+  Batch 400/898: D_loss=0.7091, G_loss=0.7735
+  Batch 500/898: D_loss=0.6822, G_loss=0.7418
+  Batch 600/898: D_loss=0.6842, G_loss=0.7683
+  Batch 700/898: D_loss=0.7179, G_loss=0.6765
+  Batch 800/898: D_loss=0.6938, G_loss=0.7322
+[Img2Text] Epoch 3/50 done - Avg D_loss: 0.6924, Avg G_loss: 0.7263
+  Batch 100/898: D_loss=0.7216, G_loss=0.6723
+  Batch 200/898: D_loss=0.6994, G_loss=0.7040
+  Batch 300/898: D_loss=0.7023, G_loss=0.7876
+  Batch 400/898: D_loss=0.6821, G_loss=0.7265
+  Batch 500/898: D_loss=0.6872, G_loss=0.6988
+  Batch 600/898: D_loss=0.6745, G_loss=0.7118
+  Batch 700/898: D_loss=0.6893, G_loss=0.6943
+  Batch 800/898: D_loss=0.7169, G_loss=0.7892
+[Img2Text] Epoch 4/50 done - Avg D_loss: 0.6947, Avg G_loss: 0.7338
+  Batch 100/898: D_loss=0.6940, G_loss=0.6990
+  Batch 200/898: D_loss=0.6830, G_loss=0.7181
+  Batch 300/898: D_loss=0.6838, G_loss=0.7761
+  Batch 400/898: D_loss=0.6900, G_loss=0.6921
+  Batch 500/898: D_loss=0.6914, G_loss=0.7586
+  Batch 600/898: D_loss=0.6882, G_loss=0.7021
+  Batch 700/898: D_loss=0.6930, G_loss=0.7081
+  Batch 800/898: D_loss=0.6832, G_loss=0.7167
+[Img2Text] Epoch 5/50 done - Avg D_loss: 0.6908, Avg G_loss: 0.7266
+  Batch 100/898: D_loss=0.6784, G_loss=0.7132
+  Batch 200/898: D_loss=0.6840, G_loss=0.7224
+  Batch 300/898: D_loss=0.6715, G_loss=0.7185
+  Batch 400/898: D_loss=0.7117, G_loss=0.6515
+  Batch 500/898: D_loss=0.7005, G_loss=0.6990
+  Batch 600/898: D_loss=0.6976, G_loss=0.6662
+  Batch 700/898: D_loss=0.6820, G_loss=0.7060
+  Batch 800/898: D_loss=0.6723, G_loss=0.7508
+[Img2Text] Epoch 6/50 done - Avg D_loss: 0.6878, Avg G_loss: 0.7363
+  Batch 100/898: D_loss=0.6793, G_loss=0.6662
+  Batch 200/898: D_loss=0.7361, G_loss=0.6359
+  Batch 300/898: D_loss=0.6557, G_loss=0.7625
+  Batch 400/898: D_loss=0.6728, G_loss=0.7389
+  Batch 500/898: D_loss=0.6731, G_loss=0.6824
+  Batch 600/898: D_loss=0.6801, G_loss=0.8998
+  Batch 700/898: D_loss=0.6627, G_loss=0.7915
+  Batch 800/898: D_loss=0.6857, G_loss=0.8073
+[Img2Text] Epoch 7/50 done - Avg D_loss: 0.6858, Avg G_loss: 0.7589
+  Batch 100/898: D_loss=0.6897, G_loss=0.7217
+  Batch 200/898: D_loss=0.6703, G_loss=0.8135
+  Batch 300/898: D_loss=0.8371, G_loss=0.5914
+  Batch 400/898: D_loss=0.6770, G_loss=0.7892
+  Batch 500/898: D_loss=0.6588, G_loss=0.8964
+  Batch 600/898: D_loss=0.7098, G_loss=0.6476
+  Batch 700/898: D_loss=0.6260, G_loss=0.7997
+  Batch 800/898: D_loss=0.7668, G_loss=0.6041
+[Img2Text] Epoch 8/50 done - Avg D_loss: 0.6782, Avg G_loss: 0.7732
+  Batch 100/898: D_loss=0.6771, G_loss=0.8795
+  Batch 200/898: D_loss=0.6370, G_loss=0.7660
+  Batch 300/898: D_loss=0.6726, G_loss=0.9289
+  Batch 400/898: D_loss=0.6616, G_loss=0.7996
+  Batch 500/898: D_loss=0.6262, G_loss=0.7885
+  Batch 600/898: D_loss=0.6410, G_loss=0.8702
+  Batch 700/898: D_loss=0.6402, G_loss=0.7243
+  Batch 800/898: D_loss=0.6636, G_loss=0.7618
+[Img2Text] Epoch 9/50 done - Avg D_loss: 0.6672, Avg G_loss: 0.7937
+  Batch 100/898: D_loss=0.6266, G_loss=0.8483
+  Batch 200/898: D_loss=0.6332, G_loss=0.9529
+  Batch 300/898: D_loss=0.6471, G_loss=0.9141
+  Batch 400/898: D_loss=0.6885, G_loss=0.7287
+  Batch 500/898: D_loss=0.6320, G_loss=0.7878
+  Batch 600/898: D_loss=0.6334, G_loss=0.7480
+  Batch 700/898: D_loss=0.6345, G_loss=0.7565
+  Batch 800/898: D_loss=0.6775, G_loss=0.7652
+[Img2Text] Epoch 10/50 done - Avg D_loss: 0.6624, Avg G_loss: 0.8159
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.6648, G_loss=0.8094
+  Batch 200/898: D_loss=0.6401, G_loss=0.9075
+  Batch 300/898: D_loss=0.6515, G_loss=0.8062
+  Batch 400/898: D_loss=0.6613, G_loss=0.7099
+  Batch 500/898: D_loss=0.6285, G_loss=0.8229
+  Batch 600/898: D_loss=0.5966, G_loss=0.8381
+  Batch 700/898: D_loss=0.6416, G_loss=0.8849
+  Batch 800/898: D_loss=0.6215, G_loss=0.8113
+[Img2Text] Epoch 11/50 done - Avg D_loss: 0.6530, Avg G_loss: 0.8251
+  Batch 100/898: D_loss=0.5824, G_loss=0.8058
+  Batch 200/898: D_loss=0.6518, G_loss=0.7841
+  Batch 300/898: D_loss=0.6929, G_loss=0.6552
+  Batch 400/898: D_loss=0.7548, G_loss=0.5895
+  Batch 500/898: D_loss=0.6446, G_loss=0.8472
+  Batch 600/898: D_loss=0.6208, G_loss=0.9202
+  Batch 700/898: D_loss=0.6311, G_loss=1.0402
+  Batch 800/898: D_loss=0.6259, G_loss=0.8230
+[Img2Text] Epoch 12/50 done - Avg D_loss: 0.6470, Avg G_loss: 0.8374
+  Batch 100/898: D_loss=0.6129, G_loss=0.8354
+  Batch 200/898: D_loss=0.6575, G_loss=0.9836
+  Batch 300/898: D_loss=0.5576, G_loss=0.8964
+  Batch 400/898: D_loss=0.5545, G_loss=0.8591
+  Batch 500/898: D_loss=0.6561, G_loss=0.7039
+  Batch 600/898: D_loss=0.5567, G_loss=0.8922
+  Batch 700/898: D_loss=0.6038, G_loss=0.8965
+  Batch 800/898: D_loss=0.9026, G_loss=0.6744
+[Img2Text] Epoch 13/50 done - Avg D_loss: 0.6367, Avg G_loss: 0.8524
+  Batch 100/898: D_loss=0.5900, G_loss=0.8404
+  Batch 200/898: D_loss=0.6686, G_loss=0.7338
+  Batch 300/898: D_loss=0.6026, G_loss=0.9918
+  Batch 400/898: D_loss=0.5720, G_loss=0.9252
+  Batch 500/898: D_loss=0.7824, G_loss=0.6114
+  Batch 600/898: D_loss=0.6227, G_loss=0.9576
+  Batch 700/898: D_loss=0.5602, G_loss=0.9199
+  Batch 800/898: D_loss=0.6393, G_loss=1.0098
+[Img2Text] Epoch 14/50 done - Avg D_loss: 0.6279, Avg G_loss: 0.8746
+  Batch 100/898: D_loss=0.6510, G_loss=0.8867
+  Batch 200/898: D_loss=0.6520, G_loss=0.8598
+  Batch 300/898: D_loss=0.6328, G_loss=0.9927
+  Batch 400/898: D_loss=0.6619, G_loss=0.6960
+  Batch 500/898: D_loss=0.8463, G_loss=0.4410
+  Batch 600/898: D_loss=0.6189, G_loss=0.9080
+  Batch 700/898: D_loss=0.8903, G_loss=0.5477
+  Batch 800/898: D_loss=0.5966, G_loss=0.8971
+[Img2Text] Epoch 15/50 done - Avg D_loss: 0.6221, Avg G_loss: 0.8927
+  Batch 100/898: D_loss=0.5436, G_loss=0.9115
+  Batch 200/898: D_loss=0.5876, G_loss=0.9899
+  Batch 300/898: D_loss=0.5676, G_loss=1.0388
+  Batch 400/898: D_loss=0.5788, G_loss=0.9782
+  Batch 500/898: D_loss=0.8378, G_loss=0.4965
+  Batch 600/898: D_loss=0.5019, G_loss=0.9679
+  Batch 700/898: D_loss=0.4626, G_loss=0.9789
+  Batch 800/898: D_loss=0.5614, G_loss=1.0170
+[Img2Text] Epoch 16/50 done - Avg D_loss: 0.6043, Avg G_loss: 0.9175
+  Batch 100/898: D_loss=0.5635, G_loss=1.0017
+  Batch 200/898: D_loss=0.6002, G_loss=0.9469
+  Batch 300/898: D_loss=0.5644, G_loss=0.9224
+  Batch 400/898: D_loss=0.5204, G_loss=1.0528
+  Batch 500/898: D_loss=0.5433, G_loss=0.9291
+  Batch 600/898: D_loss=0.5746, G_loss=0.9181
+  Batch 700/898: D_loss=0.5681, G_loss=1.0624
+  Batch 800/898: D_loss=0.6000, G_loss=0.8834
+[Img2Text] Epoch 17/50 done - Avg D_loss: 0.6021, Avg G_loss: 0.9426
+  Batch 100/898: D_loss=0.5663, G_loss=0.9648
+  Batch 200/898: D_loss=0.5700, G_loss=0.9939
+  Batch 300/898: D_loss=0.7766, G_loss=0.7896
+  Batch 400/898: D_loss=0.6211, G_loss=0.8577
+  Batch 500/898: D_loss=0.5974, G_loss=0.8917
+  Batch 600/898: D_loss=0.8492, G_loss=0.8559
+  Batch 700/898: D_loss=0.5372, G_loss=1.0554
+  Batch 800/898: D_loss=0.6391, G_loss=1.1271
+[Img2Text] Epoch 18/50 done - Avg D_loss: 0.5939, Avg G_loss: 0.9555
+  Batch 100/898: D_loss=0.4835, G_loss=1.0082
+  Batch 200/898: D_loss=0.6970, G_loss=0.8134
+  Batch 300/898: D_loss=0.6721, G_loss=0.8417
+  Batch 400/898: D_loss=0.9336, G_loss=1.1204
+  Batch 500/898: D_loss=0.5023, G_loss=1.1019
+  Batch 600/898: D_loss=0.4621, G_loss=1.0918
+  Batch 700/898: D_loss=0.5220, G_loss=1.0598
+  Batch 800/898: D_loss=0.5756, G_loss=0.9271
+[Img2Text] Epoch 19/50 done - Avg D_loss: 0.5786, Avg G_loss: 0.9826
+  Batch 100/898: D_loss=0.6161, G_loss=0.9276
+  Batch 200/898: D_loss=0.5760, G_loss=0.8823
+  Batch 300/898: D_loss=0.5835, G_loss=0.9599
+  Batch 400/898: D_loss=0.4791, G_loss=1.0836
+  Batch 500/898: D_loss=0.4747, G_loss=1.1019
+  Batch 600/898: D_loss=0.6920, G_loss=0.9830
+  Batch 700/898: D_loss=0.5978, G_loss=0.9113
+  Batch 800/898: D_loss=0.7463, G_loss=1.3206
+[Img2Text] Epoch 20/50 done - Avg D_loss: 0.5591, Avg G_loss: 1.0343
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.6328, G_loss=0.8551
+  Batch 200/898: D_loss=0.4762, G_loss=1.1311
+  Batch 300/898: D_loss=0.4514, G_loss=1.1858
+  Batch 400/898: D_loss=0.5684, G_loss=0.8197
+  Batch 500/898: D_loss=0.4193, G_loss=1.2339
+  Batch 600/898: D_loss=0.5275, G_loss=1.0827
+  Batch 700/898: D_loss=0.5787, G_loss=1.0279
+  Batch 800/898: D_loss=1.0644, G_loss=0.4471
+[Img2Text] Epoch 21/50 done - Avg D_loss: 0.5483, Avg G_loss: 1.0652
+  Batch 100/898: D_loss=0.6050, G_loss=0.8695
+  Batch 200/898: D_loss=0.6811, G_loss=1.5582
+  Batch 300/898: D_loss=0.3862, G_loss=1.1905
+  Batch 400/898: D_loss=0.5652, G_loss=0.9948
+  Batch 500/898: D_loss=0.5721, G_loss=0.9426
+  Batch 600/898: D_loss=0.6146, G_loss=0.8660
+  Batch 700/898: D_loss=0.5778, G_loss=1.3183
+  Batch 800/898: D_loss=0.4697, G_loss=1.0419
+[Img2Text] Epoch 22/50 done - Avg D_loss: 0.5475, Avg G_loss: 1.0628
+  Batch 100/898: D_loss=0.9779, G_loss=0.6516
+  Batch 200/898: D_loss=0.4860, G_loss=1.2620
+  Batch 300/898: D_loss=0.7252, G_loss=1.1100
+  Batch 400/898: D_loss=0.5083, G_loss=0.8916
+  Batch 500/898: D_loss=0.4076, G_loss=1.2862
+  Batch 600/898: D_loss=0.4595, G_loss=1.3494
+  Batch 700/898: D_loss=0.5961, G_loss=0.9832
+  Batch 800/898: D_loss=0.5144, G_loss=1.0830
+[Img2Text] Epoch 23/50 done - Avg D_loss: 0.5238, Avg G_loss: 1.1231
+  Batch 100/898: D_loss=0.4795, G_loss=1.2107
+  Batch 200/898: D_loss=0.4728, G_loss=1.1858
+  Batch 300/898: D_loss=0.5482, G_loss=1.0803
+  Batch 400/898: D_loss=0.6277, G_loss=0.9175
+  Batch 500/898: D_loss=0.3864, G_loss=1.2999
+  Batch 600/898: D_loss=0.4146, G_loss=1.3490
+  Batch 700/898: D_loss=0.5543, G_loss=1.1634
+  Batch 800/898: D_loss=0.4166, G_loss=1.2902
+[Img2Text] Epoch 24/50 done - Avg D_loss: 0.5121, Avg G_loss: 1.1616
+  Batch 100/898: D_loss=0.4462, G_loss=1.2691
+  Batch 200/898: D_loss=0.6905, G_loss=1.2148
+  Batch 300/898: D_loss=0.3848, G_loss=1.2827
+  Batch 400/898: D_loss=0.4143, G_loss=1.3671
+  Batch 500/898: D_loss=0.4515, G_loss=1.0937
+  Batch 600/898: D_loss=0.4563, G_loss=1.2820
+  Batch 700/898: D_loss=0.4144, G_loss=1.2574
+  Batch 800/898: D_loss=0.3743, G_loss=1.4901
+[Img2Text] Epoch 25/50 done - Avg D_loss: 0.4974, Avg G_loss: 1.1943
+  Batch 100/898: D_loss=0.3976, G_loss=1.3968
+  Batch 200/898: D_loss=0.4274, G_loss=1.4250
+  Batch 300/898: D_loss=0.4920, G_loss=1.2062
+  Batch 400/898: D_loss=0.5515, G_loss=1.3875
+  Batch 500/898: D_loss=0.3922, G_loss=1.3991
+  Batch 600/898: D_loss=0.3410, G_loss=1.5458
+  Batch 700/898: D_loss=0.5736, G_loss=1.0197
+  Batch 800/898: D_loss=0.3221, G_loss=1.4776
+[Img2Text] Epoch 26/50 done - Avg D_loss: 0.4822, Avg G_loss: 1.2577
+  Batch 100/898: D_loss=0.3837, G_loss=1.2805
+  Batch 200/898: D_loss=0.4417, G_loss=1.3548
+  Batch 300/898: D_loss=0.3171, G_loss=1.4258
+  Batch 400/898: D_loss=0.5859, G_loss=1.1591
+  Batch 500/898: D_loss=0.4157, G_loss=1.4100
+  Batch 600/898: D_loss=0.3835, G_loss=1.4018
+  Batch 700/898: D_loss=0.5755, G_loss=1.2389
+  Batch 800/898: D_loss=0.3554, G_loss=1.5754
+[Img2Text] Epoch 27/50 done - Avg D_loss: 0.4518, Avg G_loss: 1.2880
+  Batch 100/898: D_loss=0.9039, G_loss=1.2010
+  Batch 200/898: D_loss=0.3582, G_loss=1.4677
+  Batch 300/898: D_loss=0.2807, G_loss=1.5550
+  Batch 400/898: D_loss=0.4165, G_loss=1.2335
+  Batch 500/898: D_loss=0.7212, G_loss=1.3001
+  Batch 600/898: D_loss=0.4365, G_loss=1.2247
+  Batch 700/898: D_loss=0.5477, G_loss=1.0340
+  Batch 800/898: D_loss=0.3960, G_loss=1.4202
+[Img2Text] Epoch 28/50 done - Avg D_loss: 0.4270, Avg G_loss: 1.3828
+  Batch 100/898: D_loss=0.3423, G_loss=1.5306
+  Batch 200/898: D_loss=0.2988, G_loss=1.6092
+  Batch 300/898: D_loss=0.2722, G_loss=1.5692
+  Batch 400/898: D_loss=0.4840, G_loss=1.2599
+  Batch 500/898: D_loss=0.3224, G_loss=1.6011
+  Batch 600/898: D_loss=0.4746, G_loss=1.4109
+  Batch 700/898: D_loss=0.5099, G_loss=1.0946
+  Batch 800/898: D_loss=0.3528, G_loss=1.5683
+[Img2Text] Epoch 29/50 done - Avg D_loss: 0.3808, Avg G_loss: 1.4793
+  Batch 100/898: D_loss=0.4283, G_loss=1.5039
+  Batch 200/898: D_loss=0.4420, G_loss=1.2451
+  Batch 300/898: D_loss=0.3491, G_loss=1.7263
+  Batch 400/898: D_loss=0.2919, G_loss=1.7707
+  Batch 500/898: D_loss=0.5531, G_loss=2.0879
+  Batch 600/898: D_loss=0.3134, G_loss=1.4360
+  Batch 700/898: D_loss=0.2567, G_loss=1.7021
+  Batch 800/898: D_loss=0.4613, G_loss=1.2636
+[Img2Text] Epoch 30/50 done - Avg D_loss: 0.4210, Avg G_loss: 1.4591
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.3929, G_loss=1.3754
+  Batch 200/898: D_loss=0.2551, G_loss=1.6487
+  Batch 300/898: D_loss=0.3597, G_loss=1.4985
+  Batch 400/898: D_loss=0.2986, G_loss=1.6327
+  Batch 500/898: D_loss=0.2624, G_loss=1.5840
+  Batch 600/898: D_loss=0.2962, G_loss=1.6288
+  Batch 700/898: D_loss=0.4433, G_loss=1.3546
+  Batch 800/898: D_loss=0.3294, G_loss=1.7615
+[Img2Text] Epoch 31/50 done - Avg D_loss: 0.3737, Avg G_loss: 1.5465
+  Batch 100/898: D_loss=0.3276, G_loss=1.6757
+  Batch 200/898: D_loss=0.2483, G_loss=1.6219
+  Batch 300/898: D_loss=0.3653, G_loss=1.6005
+  Batch 400/898: D_loss=0.3655, G_loss=1.6029
+  Batch 500/898: D_loss=0.3776, G_loss=1.6319
+  Batch 600/898: D_loss=0.2780, G_loss=1.6948
+  Batch 700/898: D_loss=0.3890, G_loss=1.5829
+  Batch 800/898: D_loss=0.3550, G_loss=1.4940
+[Img2Text] Epoch 32/50 done - Avg D_loss: 0.3199, Avg G_loss: 1.6023
+  Batch 100/898: D_loss=0.2130, G_loss=1.7502
+  Batch 200/898: D_loss=0.2696, G_loss=1.6053
+  Batch 300/898: D_loss=0.2905, G_loss=1.5318
+  Batch 400/898: D_loss=0.2883, G_loss=1.5915
+  Batch 500/898: D_loss=0.1908, G_loss=1.7254
+  Batch 600/898: D_loss=0.3119, G_loss=1.8386
+  Batch 700/898: D_loss=0.3433, G_loss=1.7589
+  Batch 800/898: D_loss=0.2813, G_loss=1.6574
+[Img2Text] Epoch 33/50 done - Avg D_loss: 0.3152, Avg G_loss: 1.6268
+  Batch 100/898: D_loss=0.2371, G_loss=1.6633
+  Batch 200/898: D_loss=0.5679, G_loss=1.5739
+  Batch 300/898: D_loss=0.2837, G_loss=1.6772
+  Batch 400/898: D_loss=0.4140, G_loss=1.6331
+  Batch 500/898: D_loss=0.3654, G_loss=1.6613
+  Batch 600/898: D_loss=0.3224, G_loss=1.6220
+  Batch 700/898: D_loss=0.3126, G_loss=1.7085
+  Batch 800/898: D_loss=0.2210, G_loss=1.6357
+[Img2Text] Epoch 34/50 done - Avg D_loss: 0.3149, Avg G_loss: 1.6310
+  Batch 100/898: D_loss=0.2238, G_loss=1.6532
+  Batch 200/898: D_loss=0.4003, G_loss=1.5739
+  Batch 300/898: D_loss=0.3650, G_loss=1.5712
+  Batch 400/898: D_loss=0.5667, G_loss=1.3724
+  Batch 500/898: D_loss=0.2484, G_loss=1.9940
+  Batch 600/898: D_loss=0.4447, G_loss=1.5715
+  Batch 700/898: D_loss=0.4313, G_loss=1.3150
+  Batch 800/898: D_loss=0.3379, G_loss=1.4862
+[Img2Text] Epoch 35/50 done - Avg D_loss: 0.3911, Avg G_loss: 1.6062
+  Batch 100/898: D_loss=0.3645, G_loss=1.5040
+  Batch 200/898: D_loss=0.3171, G_loss=1.5430
+  Batch 300/898: D_loss=0.3096, G_loss=1.6969
+  Batch 400/898: D_loss=0.3146, G_loss=1.5668
+  Batch 500/898: D_loss=0.4186, G_loss=1.6992
+  Batch 600/898: D_loss=0.2912, G_loss=1.6467
+  Batch 700/898: D_loss=0.2425, G_loss=1.7116
+  Batch 800/898: D_loss=0.3524, G_loss=1.5254
+[Img2Text] Epoch 36/50 done - Avg D_loss: 0.3172, Avg G_loss: 1.6146
+  Batch 100/898: D_loss=0.2626, G_loss=1.6289
+  Batch 200/898: D_loss=0.2249, G_loss=1.5940
+  Batch 300/898: D_loss=0.2894, G_loss=1.7760
+  Batch 400/898: D_loss=0.3683, G_loss=1.4219
+  Batch 500/898: D_loss=0.4224, G_loss=1.3345
+  Batch 600/898: D_loss=0.5070, G_loss=1.3583
+  Batch 700/898: D_loss=0.2736, G_loss=1.5983
+  Batch 800/898: D_loss=0.3574, G_loss=1.8231
+[Img2Text] Epoch 37/50 done - Avg D_loss: 0.3689, Avg G_loss: 1.6009
+  Batch 100/898: D_loss=0.4341, G_loss=1.6465
+  Batch 200/898: D_loss=0.2960, G_loss=1.5583
+  Batch 300/898: D_loss=0.3760, G_loss=1.5543
+  Batch 400/898: D_loss=0.3834, G_loss=1.4294
+  Batch 500/898: D_loss=0.3700, G_loss=1.7232
+  Batch 600/898: D_loss=0.4485, G_loss=1.1742
+  Batch 700/898: D_loss=0.2848, G_loss=1.7672
+  Batch 800/898: D_loss=0.4897, G_loss=1.5768
+[Img2Text] Epoch 38/50 done - Avg D_loss: 0.3624, Avg G_loss: 1.6315
+  Batch 100/898: D_loss=0.3164, G_loss=1.6102
+  Batch 200/898: D_loss=0.3509, G_loss=1.5179
+  Batch 300/898: D_loss=0.2796, G_loss=1.6599
+  Batch 400/898: D_loss=0.3614, G_loss=1.6347
+  Batch 500/898: D_loss=0.1880, G_loss=1.6782
+  Batch 600/898: D_loss=0.1419, G_loss=1.8123
+  Batch 700/898: D_loss=0.3027, G_loss=1.4769
+  Batch 800/898: D_loss=0.3158, G_loss=1.6397
+[Img2Text] Epoch 39/50 done - Avg D_loss: 0.3296, Avg G_loss: 1.6202
+  Batch 100/898: D_loss=0.3633, G_loss=2.0264
+  Batch 200/898: D_loss=0.2026, G_loss=2.1798
+  Batch 300/898: D_loss=0.2265, G_loss=1.8483
+  Batch 400/898: D_loss=0.1959, G_loss=1.8033
+  Batch 500/898: D_loss=0.2136, G_loss=1.9262
+  Batch 600/898: D_loss=0.2667, G_loss=1.8943
+  Batch 700/898: D_loss=0.2699, G_loss=1.9397
+  Batch 800/898: D_loss=0.5643, G_loss=3.0353
+[Img2Text] Epoch 40/50 done - Avg D_loss: 0.3421, Avg G_loss: 1.7637
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.2459, G_loss=1.6186
+  Batch 200/898: D_loss=0.3550, G_loss=1.6009
+  Batch 300/898: D_loss=0.3893, G_loss=1.5239
+  Batch 400/898: D_loss=0.2086, G_loss=1.7845
+  Batch 500/898: D_loss=0.3105, G_loss=1.7251
+  Batch 600/898: D_loss=0.3740, G_loss=1.4803
+  Batch 700/898: D_loss=0.3429, G_loss=1.6627
+  Batch 800/898: D_loss=0.3514, G_loss=1.5445
+[Img2Text] Epoch 41/50 done - Avg D_loss: 0.3149, Avg G_loss: 1.6294
+  Batch 100/898: D_loss=0.3677, G_loss=1.5981
+  Batch 200/898: D_loss=0.3091, G_loss=1.6090
+  Batch 300/898: D_loss=0.2130, G_loss=1.7769
+  Batch 400/898: D_loss=0.1926, G_loss=1.7498
+  Batch 500/898: D_loss=0.3659, G_loss=1.4852
+  Batch 600/898: D_loss=0.3175, G_loss=1.4354
+  Batch 700/898: D_loss=0.2925, G_loss=1.6420
+  Batch 800/898: D_loss=0.2058, G_loss=1.8534
+[Img2Text] Epoch 42/50 done - Avg D_loss: 0.3146, Avg G_loss: 1.6361
+  Batch 100/898: D_loss=0.2310, G_loss=1.7379
+  Batch 200/898: D_loss=0.2365, G_loss=1.7002
+  Batch 300/898: D_loss=0.3088, G_loss=1.7334
+  Batch 400/898: D_loss=0.3872, G_loss=1.6272
+  Batch 500/898: D_loss=0.3355, G_loss=1.6476
+  Batch 600/898: D_loss=0.2284, G_loss=1.9844
+  Batch 700/898: D_loss=0.2509, G_loss=1.5925
+  Batch 800/898: D_loss=0.3286, G_loss=1.4845
+[Img2Text] Epoch 43/50 done - Avg D_loss: 0.3151, Avg G_loss: 1.6398
+  Batch 100/898: D_loss=0.2903, G_loss=1.6318
+  Batch 200/898: D_loss=0.2425, G_loss=1.7894
+  Batch 300/898: D_loss=0.3843, G_loss=1.5519
+  Batch 400/898: D_loss=0.2549, G_loss=1.7406
+  Batch 500/898: D_loss=0.3364, G_loss=1.5208
+  Batch 600/898: D_loss=0.3642, G_loss=1.6025
+  Batch 700/898: D_loss=0.1598, G_loss=1.8982
+  Batch 800/898: D_loss=0.2884, G_loss=1.4387
+[Img2Text] Epoch 44/50 done - Avg D_loss: 0.3157, Avg G_loss: 1.6361
+  Batch 100/898: D_loss=0.2812, G_loss=1.4840
+  Batch 200/898: D_loss=0.2860, G_loss=1.7150
+  Batch 300/898: D_loss=0.2634, G_loss=1.8553
+  Batch 400/898: D_loss=0.3150, G_loss=1.6246
+  Batch 500/898: D_loss=0.3110, G_loss=1.7470
+  Batch 600/898: D_loss=0.3387, G_loss=1.5580
+  Batch 700/898: D_loss=0.3122, G_loss=1.5268
+  Batch 800/898: D_loss=0.3397, G_loss=1.4313
+[Img2Text] Epoch 45/50 done - Avg D_loss: 0.3162, Avg G_loss: 1.6407
+  Batch 100/898: D_loss=0.2332, G_loss=1.9240
+  Batch 200/898: D_loss=0.2592, G_loss=1.8464
+  Batch 300/898: D_loss=0.5117, G_loss=1.2444
+  Batch 400/898: D_loss=0.2884, G_loss=1.7335
+  Batch 500/898: D_loss=0.2854, G_loss=1.6494
+  Batch 600/898: D_loss=0.2238, G_loss=1.4635
+  Batch 700/898: D_loss=0.3479, G_loss=1.7475
+  Batch 800/898: D_loss=0.3402, G_loss=1.4250
+[Img2Text] Epoch 46/50 done - Avg D_loss: 0.3162, Avg G_loss: 1.6371
+  Batch 100/898: D_loss=0.3147, G_loss=1.5642
+  Batch 200/898: D_loss=0.4602, G_loss=1.6693
+  Batch 300/898: D_loss=0.3698, G_loss=1.7508
+  Batch 400/898: D_loss=0.2895, G_loss=1.7111
+  Batch 500/898: D_loss=0.4145, G_loss=1.5091
+  Batch 600/898: D_loss=0.3175, G_loss=1.4622
+  Batch 700/898: D_loss=0.4031, G_loss=1.4126
+  Batch 800/898: D_loss=0.2497, G_loss=1.6230
+[Img2Text] Epoch 47/50 done - Avg D_loss: 0.3165, Avg G_loss: 1.6386
+  Batch 100/898: D_loss=0.2367, G_loss=1.7855
+  Batch 200/898: D_loss=0.4013, G_loss=1.6752
+  Batch 300/898: D_loss=0.4036, G_loss=1.4131
+  Batch 400/898: D_loss=0.3023, G_loss=1.4409
+  Batch 500/898: D_loss=0.2860, G_loss=1.6761
+  Batch 600/898: D_loss=0.3996, G_loss=1.6553
+  Batch 700/898: D_loss=0.2687, G_loss=1.6364
+  Batch 800/898: D_loss=0.4117, G_loss=1.5057
+[Img2Text] Epoch 48/50 done - Avg D_loss: 0.3166, Avg G_loss: 1.6354
+  Batch 100/898: D_loss=0.2317, G_loss=1.8609
+  Batch 200/898: D_loss=0.3640, G_loss=1.6608
+  Batch 300/898: D_loss=0.4191, G_loss=1.4683
+  Batch 400/898: D_loss=0.3572, G_loss=1.4921
+  Batch 500/898: D_loss=0.3614, G_loss=1.4588
+  Batch 600/898: D_loss=0.3402, G_loss=1.5856
+  Batch 700/898: D_loss=0.2856, G_loss=1.7214
+  Batch 800/898: D_loss=0.3824, G_loss=1.4015
+[Img2Text] Epoch 49/50 done - Avg D_loss: 0.3166, Avg G_loss: 1.6365
+  Batch 100/898: D_loss=0.2889, G_loss=1.6831
+  Batch 200/898: D_loss=0.3432, G_loss=1.7126
+  Batch 300/898: D_loss=0.2476, G_loss=1.6175
+  Batch 400/898: D_loss=0.2416, G_loss=1.7090
+  Batch 500/898: D_loss=0.3404, G_loss=1.6750
+  Batch 600/898: D_loss=0.3363, G_loss=1.6570
+  Batch 700/898: D_loss=0.3249, G_loss=1.8990
+  Batch 800/898: D_loss=0.3181, G_loss=1.4987
+[Img2Text] Epoch 50/50 done - Avg D_loss: 0.3165, Avg G_loss: 1.6334
+  Saved checkpoints to experiments/exp1/checkpoints
+Training Text -> Image GAN on cuda
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 77348.39it/s]
+  Batch 100/898: D_loss=0.2659, G_loss=2.2783
+  Batch 200/898: D_loss=0.4005, G_loss=1.4778
+  Batch 300/898: D_loss=0.3351, G_loss=3.8002
+  Batch 400/898: D_loss=0.2994, G_loss=2.0461
+  Batch 500/898: D_loss=0.3145, G_loss=5.1175
+  Batch 600/898: D_loss=0.3020, G_loss=2.9598
+  Batch 700/898: D_loss=0.2285, G_loss=2.3526
+  Batch 800/898: D_loss=0.1534, G_loss=3.8441
+[Text2Img] Epoch 1/50 done - Avg D_loss: 0.2697, Avg G_loss: 2.6303
+  Batch 100/898: D_loss=0.7292, G_loss=2.6826
+  Batch 200/898: D_loss=0.7423, G_loss=1.0638
+  Batch 300/898: D_loss=0.6116, G_loss=1.4768
+  Batch 400/898: D_loss=0.5240, G_loss=1.8766
+  Batch 500/898: D_loss=0.6318, G_loss=1.6142
+  Batch 600/898: D_loss=0.5085, G_loss=1.5722
+  Batch 700/898: D_loss=0.5507, G_loss=1.7708
+  Batch 800/898: D_loss=0.4438, G_loss=1.6427
+[Text2Img] Epoch 2/50 done - Avg D_loss: 0.5014, Avg G_loss: 1.8699
+  Batch 100/898: D_loss=0.5897, G_loss=0.8760
+  Batch 200/898: D_loss=0.3433, G_loss=1.9325
+  Batch 300/898: D_loss=0.2498, G_loss=2.0741
+  Batch 400/898: D_loss=1.2647, G_loss=2.0179
+  Batch 500/898: D_loss=0.3426, G_loss=1.7922
+  Batch 600/898: D_loss=0.4082, G_loss=2.0769
+  Batch 700/898: D_loss=0.1255, G_loss=2.4476
+  Batch 800/898: D_loss=0.2877, G_loss=2.0829
+[Text2Img] Epoch 3/50 done - Avg D_loss: 0.4158, Avg G_loss: 1.9211
+  Batch 100/898: D_loss=0.2375, G_loss=1.1531
+  Batch 200/898: D_loss=0.2358, G_loss=2.4331
+  Batch 300/898: D_loss=0.1567, G_loss=2.7820
+  Batch 400/898: D_loss=0.2825, G_loss=3.1125
+  Batch 500/898: D_loss=0.4421, G_loss=1.9534
+  Batch 600/898: D_loss=0.6054, G_loss=3.2918
+  Batch 700/898: D_loss=0.1513, G_loss=2.8283
+  Batch 800/898: D_loss=0.0262, G_loss=4.8847
+[Text2Img] Epoch 4/50 done - Avg D_loss: 0.2633, Avg G_loss: 2.7757
+  Batch 100/898: D_loss=1.0646, G_loss=4.8028
+  Batch 200/898: D_loss=0.5087, G_loss=3.4666
+  Batch 300/898: D_loss=0.7369, G_loss=1.6374
+  Batch 400/898: D_loss=0.2447, G_loss=2.0642
+  Batch 500/898: D_loss=0.2014, G_loss=2.3919
+  Batch 600/898: D_loss=0.1862, G_loss=2.7654
+  Batch 700/898: D_loss=0.2651, G_loss=2.4765
+  Batch 800/898: D_loss=0.8743, G_loss=0.5331
+[Text2Img] Epoch 5/50 done - Avg D_loss: 0.3134, Avg G_loss: 2.7141
+  Batch 100/898: D_loss=0.4492, G_loss=3.1053
+  Batch 200/898: D_loss=0.3513, G_loss=2.4509
+  Batch 300/898: D_loss=0.9878, G_loss=2.7295
+  Batch 400/898: D_loss=0.4999, G_loss=3.6593
+  Batch 500/898: D_loss=0.1403, G_loss=3.1070
+  Batch 600/898: D_loss=0.1630, G_loss=2.0856
+  Batch 700/898: D_loss=0.0594, G_loss=3.8474
+  Batch 800/898: D_loss=0.1554, G_loss=2.3110
+[Text2Img] Epoch 6/50 done - Avg D_loss: 0.2757, Avg G_loss: 2.8138
+  Batch 100/898: D_loss=0.1508, G_loss=2.2858
+  Batch 200/898: D_loss=0.2523, G_loss=3.5690
+  Batch 300/898: D_loss=0.5083, G_loss=3.6545
+  Batch 400/898: D_loss=0.5006, G_loss=2.0422
+  Batch 500/898: D_loss=0.0696, G_loss=7.0888
+  Batch 600/898: D_loss=0.3288, G_loss=3.1518
+  Batch 700/898: D_loss=0.9594, G_loss=1.9070
+  Batch 800/898: D_loss=0.1481, G_loss=3.5895
+[Text2Img] Epoch 7/50 done - Avg D_loss: 0.2563, Avg G_loss: 3.0702
+  Batch 100/898: D_loss=0.3550, G_loss=2.6814
+  Batch 200/898: D_loss=0.1320, G_loss=2.3413
+  Batch 300/898: D_loss=0.1248, G_loss=3.2025
+  Batch 400/898: D_loss=0.0318, G_loss=4.1392
+  Batch 500/898: D_loss=0.4562, G_loss=4.3137
+  Batch 600/898: D_loss=0.1240, G_loss=2.6863
+  Batch 700/898: D_loss=0.0145, G_loss=4.9819
+  Batch 800/898: D_loss=0.0091, G_loss=4.6062
+[Text2Img] Epoch 8/50 done - Avg D_loss: 0.1978, Avg G_loss: 3.6382
+  Batch 100/898: D_loss=0.0223, G_loss=5.9887
+  Batch 200/898: D_loss=0.0055, G_loss=5.5172
+  Batch 300/898: D_loss=0.0045, G_loss=5.6687
+  Batch 400/898: D_loss=0.0023, G_loss=6.3553
+  Batch 500/898: D_loss=0.0013, G_loss=7.5429
+  Batch 600/898: D_loss=0.0017, G_loss=7.5447
+  Batch 700/898: D_loss=0.2165, G_loss=4.9306
+  Batch 800/898: D_loss=0.1656, G_loss=2.8717
+[Text2Img] Epoch 9/50 done - Avg D_loss: 0.0744, Avg G_loss: 5.3590
+  Batch 100/898: D_loss=0.0688, G_loss=3.4279
+  Batch 200/898: D_loss=0.0309, G_loss=4.1115
+  Batch 300/898: D_loss=0.0215, G_loss=4.7285
+  Batch 400/898: D_loss=0.0182, G_loss=4.9803
+  Batch 500/898: D_loss=0.0311, G_loss=4.2167
+  Batch 600/898: D_loss=0.2672, G_loss=2.6249
+  Batch 700/898: D_loss=0.1050, G_loss=3.8233
+  Batch 800/898: D_loss=0.2550, G_loss=1.0163
+[Text2Img] Epoch 10/50 done - Avg D_loss: 0.0947, Avg G_loss: 4.4029
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.0415, G_loss=3.9168
+  Batch 200/898: D_loss=0.0312, G_loss=4.1357
+  Batch 300/898: D_loss=0.0087, G_loss=5.1059
+  Batch 400/898: D_loss=0.0287, G_loss=4.4734
+  Batch 500/898: D_loss=0.0248, G_loss=4.1834
+  Batch 600/898: D_loss=0.0033, G_loss=6.2651
+  Batch 700/898: D_loss=0.2047, G_loss=7.8448
+  Batch 800/898: D_loss=0.0331, G_loss=4.4145
+[Text2Img] Epoch 11/50 done - Avg D_loss: 0.0516, Avg G_loss: 4.5640
+  Batch 100/898: D_loss=0.0035, G_loss=5.7962
+  Batch 200/898: D_loss=0.0135, G_loss=5.0754
+  Batch 300/898: D_loss=0.0045, G_loss=5.3891
+  Batch 400/898: D_loss=0.0011, G_loss=7.1749
+  Batch 500/898: D_loss=0.0043, G_loss=5.8573
+  Batch 600/898: D_loss=0.4122, G_loss=2.8504
+  Batch 700/898: D_loss=0.5002, G_loss=4.9559
+  Batch 800/898: D_loss=0.1556, G_loss=3.3030
+[Text2Img] Epoch 12/50 done - Avg D_loss: 0.1591, Avg G_loss: 4.6408
+  Batch 100/898: D_loss=0.1636, G_loss=2.5835
+  Batch 200/898: D_loss=0.4467, G_loss=5.0118
+  Batch 300/898: D_loss=0.5002, G_loss=3.8000
+  Batch 400/898: D_loss=0.4718, G_loss=1.8821
+  Batch 500/898: D_loss=0.0517, G_loss=3.3930
+  Batch 600/898: D_loss=0.3954, G_loss=2.0651
+  Batch 700/898: D_loss=0.0792, G_loss=3.3029
+  Batch 800/898: D_loss=0.2747, G_loss=1.6244
+[Text2Img] Epoch 13/50 done - Avg D_loss: 0.3365, Avg G_loss: 2.7606
+  Batch 100/898: D_loss=0.2748, G_loss=2.1343
+  Batch 200/898: D_loss=0.4648, G_loss=2.4261
+  Batch 300/898: D_loss=0.3117, G_loss=2.7657
+  Batch 400/898: D_loss=0.2901, G_loss=2.0391
+  Batch 500/898: D_loss=0.4378, G_loss=2.7366
+  Batch 600/898: D_loss=0.4298, G_loss=2.7106
+  Batch 700/898: D_loss=0.2466, G_loss=2.5072
+  Batch 800/898: D_loss=0.5339, G_loss=1.6436
+[Text2Img] Epoch 14/50 done - Avg D_loss: 0.4086, Avg G_loss: 2.2169
+  Batch 100/898: D_loss=0.4189, G_loss=2.1807
+  Batch 200/898: D_loss=0.4993, G_loss=2.4352
+  Batch 300/898: D_loss=0.5238, G_loss=2.7860
+  Batch 400/898: D_loss=0.4790, G_loss=1.2316
+  Batch 500/898: D_loss=0.3156, G_loss=2.1831
+  Batch 600/898: D_loss=0.4678, G_loss=2.9827
+  Batch 700/898: D_loss=0.1934, G_loss=2.2606
+  Batch 800/898: D_loss=0.4347, G_loss=2.0225
+[Text2Img] Epoch 15/50 done - Avg D_loss: 0.4072, Avg G_loss: 2.1908
+  Batch 100/898: D_loss=0.4522, G_loss=3.0463
+  Batch 200/898: D_loss=0.3818, G_loss=1.0358
+  Batch 300/898: D_loss=0.1413, G_loss=2.2777
+  Batch 400/898: D_loss=0.4130, G_loss=2.1640
+  Batch 500/898: D_loss=0.4245, G_loss=2.9979
+  Batch 600/898: D_loss=0.8529, G_loss=1.9950
+  Batch 700/898: D_loss=0.3803, G_loss=1.4421
+  Batch 800/898: D_loss=0.5394, G_loss=2.9963
+[Text2Img] Epoch 16/50 done - Avg D_loss: 0.3654, Avg G_loss: 2.5171
+  Batch 100/898: D_loss=0.2189, G_loss=1.7056
+  Batch 200/898: D_loss=0.1123, G_loss=2.5472
+  Batch 300/898: D_loss=0.1766, G_loss=2.3696
+  Batch 400/898: D_loss=0.1662, G_loss=1.4791
+  Batch 500/898: D_loss=0.4318, G_loss=1.3530
+  Batch 600/898: D_loss=0.3994, G_loss=1.8303
+  Batch 700/898: D_loss=0.5342, G_loss=1.3421
+  Batch 800/898: D_loss=0.4271, G_loss=1.4696
+[Text2Img] Epoch 17/50 done - Avg D_loss: 0.3806, Avg G_loss: 2.4369
+  Batch 100/898: D_loss=0.8507, G_loss=1.6630
+  Batch 200/898: D_loss=1.0363, G_loss=4.0440
+  Batch 300/898: D_loss=0.4826, G_loss=2.6021
+  Batch 400/898: D_loss=0.2380, G_loss=2.5981
+  Batch 500/898: D_loss=0.1363, G_loss=2.9994
+  Batch 600/898: D_loss=0.5033, G_loss=2.0333
+  Batch 700/898: D_loss=0.2241, G_loss=3.1302
+  Batch 800/898: D_loss=0.2694, G_loss=2.2717
+[Text2Img] Epoch 18/50 done - Avg D_loss: 0.3753, Avg G_loss: 2.4184
+  Batch 100/898: D_loss=0.6737, G_loss=2.0018
+  Batch 200/898: D_loss=0.4844, G_loss=0.9280
+  Batch 300/898: D_loss=0.4716, G_loss=1.9450
+  Batch 400/898: D_loss=0.1454, G_loss=2.1471
+  Batch 500/898: D_loss=0.2662, G_loss=1.5438
+  Batch 600/898: D_loss=0.3871, G_loss=1.8024
+  Batch 700/898: D_loss=0.3969, G_loss=2.5729
+  Batch 800/898: D_loss=0.1746, G_loss=2.7523
+[Text2Img] Epoch 19/50 done - Avg D_loss: 0.3351, Avg G_loss: 2.6843
+  Batch 100/898: D_loss=0.1304, G_loss=3.3054
+  Batch 200/898: D_loss=1.0430, G_loss=2.5261
+  Batch 300/898: D_loss=0.2081, G_loss=2.7617
+  Batch 400/898: D_loss=0.4090, G_loss=2.1135
+  Batch 500/898: D_loss=0.7386, G_loss=3.6660
+  Batch 600/898: D_loss=0.1866, G_loss=2.7083
+  Batch 700/898: D_loss=0.2039, G_loss=2.2291
+  Batch 800/898: D_loss=0.1250, G_loss=2.2757
+[Text2Img] Epoch 20/50 done - Avg D_loss: 0.3436, Avg G_loss: 2.6441
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.9045, G_loss=1.6807
+  Batch 200/898: D_loss=0.2490, G_loss=2.4978
+  Batch 300/898: D_loss=0.0915, G_loss=3.1695
+  Batch 400/898: D_loss=0.6610, G_loss=3.6414
+  Batch 500/898: D_loss=0.3504, G_loss=2.9429
+  Batch 600/898: D_loss=0.2170, G_loss=2.7718
+  Batch 700/898: D_loss=0.4186, G_loss=2.2878
+  Batch 800/898: D_loss=0.2852, G_loss=2.4364
+[Text2Img] Epoch 21/50 done - Avg D_loss: 0.3453, Avg G_loss: 2.5284
+  Batch 100/898: D_loss=0.2926, G_loss=2.6256
+  Batch 200/898: D_loss=0.3979, G_loss=1.8446
+  Batch 300/898: D_loss=0.3661, G_loss=1.8204
+  Batch 400/898: D_loss=0.1503, G_loss=2.2734
+  Batch 500/898: D_loss=0.3129, G_loss=2.5590
+  Batch 600/898: D_loss=0.4237, G_loss=2.2782
+  Batch 700/898: D_loss=0.3329, G_loss=2.0850
+  Batch 800/898: D_loss=0.4276, G_loss=1.1318
+[Text2Img] Epoch 22/50 done - Avg D_loss: 0.3457, Avg G_loss: 2.2851
+  Batch 100/898: D_loss=0.3193, G_loss=2.1327
+  Batch 200/898: D_loss=0.3185, G_loss=2.6916
+  Batch 300/898: D_loss=0.2131, G_loss=2.2346
+  Batch 400/898: D_loss=0.3323, G_loss=2.8919
+  Batch 500/898: D_loss=0.5089, G_loss=1.3228
+  Batch 600/898: D_loss=0.3395, G_loss=2.7197
+  Batch 700/898: D_loss=0.3747, G_loss=1.6247
+  Batch 800/898: D_loss=0.3144, G_loss=1.7266
+[Text2Img] Epoch 23/50 done - Avg D_loss: 0.3731, Avg G_loss: 2.2866
+  Batch 100/898: D_loss=0.1943, G_loss=2.1126
+  Batch 200/898: D_loss=0.4176, G_loss=1.5361
+  Batch 300/898: D_loss=0.3024, G_loss=2.3909
+  Batch 400/898: D_loss=0.4335, G_loss=3.5788
+  Batch 500/898: D_loss=0.3416, G_loss=1.5183
+  Batch 600/898: D_loss=0.2755, G_loss=2.8100
+  Batch 700/898: D_loss=0.3891, G_loss=3.9115
+  Batch 800/898: D_loss=0.4085, G_loss=2.2377
+[Text2Img] Epoch 24/50 done - Avg D_loss: 0.3568, Avg G_loss: 2.3700
+  Batch 100/898: D_loss=0.5517, G_loss=1.7584
+  Batch 200/898: D_loss=0.4745, G_loss=1.9334
+  Batch 300/898: D_loss=0.3638, G_loss=1.6340
+  Batch 400/898: D_loss=0.4202, G_loss=3.1930
+  Batch 500/898: D_loss=0.1436, G_loss=2.6527
+  Batch 600/898: D_loss=0.8523, G_loss=0.6008
+  Batch 700/898: D_loss=0.2475, G_loss=2.8883
+  Batch 800/898: D_loss=0.5913, G_loss=1.1712
+[Text2Img] Epoch 25/50 done - Avg D_loss: 0.3549, Avg G_loss: 2.3596
+  Batch 100/898: D_loss=0.3227, G_loss=2.5722
+  Batch 200/898: D_loss=0.3584, G_loss=1.9804
+  Batch 300/898: D_loss=0.3314, G_loss=2.2590
+  Batch 400/898: D_loss=0.2753, G_loss=3.7366
+  Batch 500/898: D_loss=0.3206, G_loss=2.7790
+  Batch 600/898: D_loss=0.3998, G_loss=2.4309
+  Batch 700/898: D_loss=0.2178, G_loss=2.1275
+  Batch 800/898: D_loss=0.2285, G_loss=2.1227
+[Text2Img] Epoch 26/50 done - Avg D_loss: 0.3441, Avg G_loss: 2.4296
+  Batch 100/898: D_loss=0.2090, G_loss=2.0888
+  Batch 200/898: D_loss=0.2855, G_loss=1.5971
+  Batch 300/898: D_loss=0.3523, G_loss=2.0622
+  Batch 400/898: D_loss=0.1968, G_loss=2.5593
+  Batch 500/898: D_loss=0.3494, G_loss=2.6538
+  Batch 600/898: D_loss=0.2538, G_loss=2.2675
+  Batch 700/898: D_loss=0.2991, G_loss=2.2121
+  Batch 800/898: D_loss=0.3724, G_loss=2.4305
+[Text2Img] Epoch 27/50 done - Avg D_loss: 0.3384, Avg G_loss: 2.4240
+  Batch 100/898: D_loss=0.2011, G_loss=2.8069
+  Batch 200/898: D_loss=0.1075, G_loss=2.9556
+  Batch 300/898: D_loss=0.2233, G_loss=1.9502
+  Batch 400/898: D_loss=0.3056, G_loss=2.2080
+  Batch 500/898: D_loss=0.3346, G_loss=1.9937
+  Batch 600/898: D_loss=0.2593, G_loss=3.1649
+  Batch 700/898: D_loss=0.2817, G_loss=2.4825
+  Batch 800/898: D_loss=0.4428, G_loss=1.9602
+[Text2Img] Epoch 28/50 done - Avg D_loss: 0.3242, Avg G_loss: 2.5200
+  Batch 100/898: D_loss=0.2312, G_loss=2.0080
+  Batch 200/898: D_loss=0.1299, G_loss=2.8008
+  Batch 300/898: D_loss=0.3400, G_loss=3.1635
+  Batch 400/898: D_loss=0.1693, G_loss=1.9852
+  Batch 500/898: D_loss=0.2262, G_loss=2.2569
+  Batch 600/898: D_loss=0.1555, G_loss=2.5725
+  Batch 700/898: D_loss=0.1658, G_loss=3.1633
+  Batch 800/898: D_loss=0.2990, G_loss=2.6675
+[Text2Img] Epoch 29/50 done - Avg D_loss: 0.2958, Avg G_loss: 2.6771
+  Batch 100/898: D_loss=0.4449, G_loss=1.3987
+  Batch 200/898: D_loss=0.2038, G_loss=2.0532
+  Batch 300/898: D_loss=0.1824, G_loss=2.2980
+  Batch 400/898: D_loss=0.3236, G_loss=2.2155
+  Batch 500/898: D_loss=0.3583, G_loss=2.8301
+  Batch 600/898: D_loss=0.1929, G_loss=2.1277
+  Batch 700/898: D_loss=0.5945, G_loss=5.1063
+  Batch 800/898: D_loss=0.2727, G_loss=2.3898
+[Text2Img] Epoch 30/50 done - Avg D_loss: 0.3022, Avg G_loss: 2.6686
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.1766, G_loss=3.1163
+  Batch 200/898: D_loss=0.1274, G_loss=3.0090
+  Batch 300/898: D_loss=0.4102, G_loss=3.8259
+  Batch 400/898: D_loss=0.4000, G_loss=3.1100
+  Batch 500/898: D_loss=0.2198, G_loss=2.7621
+  Batch 600/898: D_loss=0.4209, G_loss=4.7846
+  Batch 700/898: D_loss=0.2437, G_loss=3.9953
+  Batch 800/898: D_loss=0.1769, G_loss=2.5612
+[Text2Img] Epoch 31/50 done - Avg D_loss: 0.2993, Avg G_loss: 2.7444
+  Batch 100/898: D_loss=0.4084, G_loss=3.5254
+  Batch 200/898: D_loss=0.3848, G_loss=4.4056
+  Batch 300/898: D_loss=0.0898, G_loss=2.8307
+  Batch 400/898: D_loss=0.1556, G_loss=2.2564
+  Batch 500/898: D_loss=0.1324, G_loss=1.9636
+  Batch 600/898: D_loss=0.2632, G_loss=2.5604
+  Batch 700/898: D_loss=0.2332, G_loss=2.2758
+  Batch 800/898: D_loss=0.3269, G_loss=3.8511
+[Text2Img] Epoch 32/50 done - Avg D_loss: 0.2913, Avg G_loss: 2.8024
+  Batch 100/898: D_loss=0.8617, G_loss=4.7893
+  Batch 200/898: D_loss=0.2757, G_loss=2.2313
+  Batch 300/898: D_loss=0.2113, G_loss=3.6710
+  Batch 400/898: D_loss=0.1027, G_loss=3.5672
+  Batch 500/898: D_loss=0.2236, G_loss=3.9599
+  Batch 600/898: D_loss=0.2342, G_loss=3.6153
+  Batch 700/898: D_loss=0.5605, G_loss=4.8983
+  Batch 800/898: D_loss=0.5067, G_loss=1.8042
+[Text2Img] Epoch 33/50 done - Avg D_loss: 0.2657, Avg G_loss: 2.8716
+  Batch 100/898: D_loss=0.1798, G_loss=3.7830
+  Batch 200/898: D_loss=0.3591, G_loss=1.6040
+  Batch 300/898: D_loss=0.2936, G_loss=3.4688
+  Batch 400/898: D_loss=0.1176, G_loss=2.7190
+  Batch 500/898: D_loss=0.3526, G_loss=1.6442
+  Batch 600/898: D_loss=0.2235, G_loss=3.3655
+  Batch 700/898: D_loss=0.0580, G_loss=3.7247
+  Batch 800/898: D_loss=0.0701, G_loss=3.4525
+[Text2Img] Epoch 34/50 done - Avg D_loss: 0.2665, Avg G_loss: 2.9217
+  Batch 100/898: D_loss=0.1906, G_loss=2.4936
+  Batch 200/898: D_loss=0.2538, G_loss=2.9006
+  Batch 300/898: D_loss=0.2071, G_loss=2.3686
+  Batch 400/898: D_loss=0.2604, G_loss=3.8562
+  Batch 500/898: D_loss=0.1403, G_loss=3.2288
+  Batch 600/898: D_loss=0.4271, G_loss=4.2439
+  Batch 700/898: D_loss=0.2767, G_loss=2.1976
+  Batch 800/898: D_loss=0.2042, G_loss=2.9393
+[Text2Img] Epoch 35/50 done - Avg D_loss: 0.2761, Avg G_loss: 2.8723
+  Batch 100/898: D_loss=0.1457, G_loss=2.7730
+  Batch 200/898: D_loss=0.2102, G_loss=2.3432
+  Batch 300/898: D_loss=0.5189, G_loss=3.7841
+  Batch 400/898: D_loss=0.2540, G_loss=2.6761
+  Batch 500/898: D_loss=0.1927, G_loss=4.9082
+  Batch 600/898: D_loss=0.2356, G_loss=2.3206
+  Batch 700/898: D_loss=0.3149, G_loss=1.7211
+  Batch 800/898: D_loss=0.3134, G_loss=2.4855
+[Text2Img] Epoch 36/50 done - Avg D_loss: 0.2728, Avg G_loss: 2.9358
+  Batch 100/898: D_loss=0.2685, G_loss=2.0500
+  Batch 200/898: D_loss=0.4624, G_loss=2.8472
+  Batch 300/898: D_loss=0.2114, G_loss=2.5881
+  Batch 400/898: D_loss=0.3359, G_loss=3.4164
+  Batch 500/898: D_loss=0.1626, G_loss=2.5435
+  Batch 600/898: D_loss=0.1801, G_loss=3.8644
+  Batch 700/898: D_loss=0.2613, G_loss=2.3853
+  Batch 800/898: D_loss=0.1115, G_loss=3.5048
+[Text2Img] Epoch 37/50 done - Avg D_loss: 0.2748, Avg G_loss: 3.0562
+  Batch 100/898: D_loss=0.1922, G_loss=2.9984
+  Batch 200/898: D_loss=0.1479, G_loss=2.6094
+  Batch 300/898: D_loss=0.1991, G_loss=4.5118
+  Batch 400/898: D_loss=0.1513, G_loss=3.6171
+  Batch 500/898: D_loss=0.3266, G_loss=3.9132
+  Batch 600/898: D_loss=0.0632, G_loss=2.5879
+  Batch 700/898: D_loss=0.2536, G_loss=3.8628
+  Batch 800/898: D_loss=0.3375, G_loss=1.7716
+[Text2Img] Epoch 38/50 done - Avg D_loss: 0.2405, Avg G_loss: 3.0922
+  Batch 100/898: D_loss=0.2962, G_loss=1.7915
+  Batch 200/898: D_loss=0.0929, G_loss=3.9235
+  Batch 300/898: D_loss=0.2207, G_loss=3.5466
+  Batch 400/898: D_loss=0.3186, G_loss=3.0585
+  Batch 500/898: D_loss=0.2389, G_loss=2.4613
+  Batch 600/898: D_loss=0.1582, G_loss=2.5607
+  Batch 700/898: D_loss=0.3807, G_loss=2.9994
+  Batch 800/898: D_loss=0.3371, G_loss=1.7478
+[Text2Img] Epoch 39/50 done - Avg D_loss: 0.2704, Avg G_loss: 3.1148
+  Batch 100/898: D_loss=0.0999, G_loss=4.2937
+  Batch 200/898: D_loss=0.8064, G_loss=4.3332
+  Batch 300/898: D_loss=0.4481, G_loss=1.2650
+  Batch 400/898: D_loss=0.2630, G_loss=1.7703
+  Batch 500/898: D_loss=0.5676, G_loss=3.5375
+  Batch 600/898: D_loss=0.1630, G_loss=3.5119
+  Batch 700/898: D_loss=0.1088, G_loss=2.8200
+  Batch 800/898: D_loss=0.1819, G_loss=5.4994
+[Text2Img] Epoch 40/50 done - Avg D_loss: 0.2624, Avg G_loss: 3.1003
+  Saved checkpoints to experiments/exp1/checkpoints
+  Batch 100/898: D_loss=0.1980, G_loss=3.2995
+  Batch 200/898: D_loss=0.2331, G_loss=2.2337
+  Batch 300/898: D_loss=0.2422, G_loss=1.9965
+  Batch 400/898: D_loss=0.3404, G_loss=2.7304
+  Batch 500/898: D_loss=0.1476, G_loss=3.3032
+  Batch 600/898: D_loss=0.2063, G_loss=1.9008
+  Batch 700/898: D_loss=0.2938, G_loss=2.2762
+  Batch 800/898: D_loss=0.2830, G_loss=2.5160
+[Text2Img] Epoch 41/50 done - Avg D_loss: 0.2479, Avg G_loss: 3.0778
+  Batch 100/898: D_loss=0.0921, G_loss=2.8217
+  Batch 200/898: D_loss=0.1577, G_loss=2.6284
+  Batch 300/898: D_loss=0.3538, G_loss=3.6402
+  Batch 400/898: D_loss=0.6412, G_loss=2.0223
+  Batch 500/898: D_loss=0.0871, G_loss=2.9666
+  Batch 600/898: D_loss=0.3272, G_loss=3.4628
+  Batch 700/898: D_loss=0.2954, G_loss=2.5566
+  Batch 800/898: D_loss=0.5755, G_loss=4.4168
+[Text2Img] Epoch 42/50 done - Avg D_loss: 0.2622, Avg G_loss: 3.1529
+  Batch 100/898: D_loss=0.2427, G_loss=3.0975
+  Batch 200/898: D_loss=0.3437, G_loss=5.0276
+  Batch 300/898: D_loss=0.0997, G_loss=3.2537
+  Batch 400/898: D_loss=0.1941, G_loss=4.0825
+  Batch 500/898: D_loss=0.5023, G_loss=8.3902
+  Batch 600/898: D_loss=0.3008, G_loss=2.3955
+  Batch 700/898: D_loss=0.5005, G_loss=3.1825
+  Batch 800/898: D_loss=0.4866, G_loss=5.9741
+[Text2Img] Epoch 43/50 done - Avg D_loss: 0.2359, Avg G_loss: 3.2315
+  Batch 100/898: D_loss=0.0983, G_loss=3.3804
+  Batch 200/898: D_loss=0.4250, G_loss=5.1180
+  Batch 300/898: D_loss=0.2350, G_loss=2.9682
+  Batch 400/898: D_loss=0.1955, G_loss=2.8848
+  Batch 500/898: D_loss=0.1334, G_loss=3.6102
+  Batch 600/898: D_loss=0.2014, G_loss=2.2983
+  Batch 700/898: D_loss=0.2153, G_loss=1.6157
+  Batch 800/898: D_loss=0.1695, G_loss=4.9247
+[Text2Img] Epoch 44/50 done - Avg D_loss: 0.2534, Avg G_loss: 3.2859
+  Batch 100/898: D_loss=0.2109, G_loss=2.7328
+  Batch 200/898: D_loss=0.1060, G_loss=3.7450
+  Batch 300/898: D_loss=0.1222, G_loss=3.1133
+  Batch 400/898: D_loss=0.1966, G_loss=3.7346
+  Batch 500/898: D_loss=0.1345, G_loss=2.1705
+  Batch 600/898: D_loss=0.2890, G_loss=3.2313
+  Batch 700/898: D_loss=0.2845, G_loss=4.9482
+  Batch 800/898: D_loss=0.4349, G_loss=1.5253
+[Text2Img] Epoch 45/50 done - Avg D_loss: 0.2477, Avg G_loss: 3.2479
+  Batch 100/898: D_loss=0.1910, G_loss=2.0780
+  Batch 200/898: D_loss=0.0761, G_loss=3.3639
+  Batch 300/898: D_loss=0.4615, G_loss=2.1005
+  Batch 400/898: D_loss=0.3171, G_loss=3.8076
+  Batch 500/898: D_loss=0.1001, G_loss=3.4027
+  Batch 600/898: D_loss=0.1027, G_loss=4.3421
+  Batch 700/898: D_loss=0.2628, G_loss=2.5990
+  Batch 800/898: D_loss=1.1812, G_loss=3.7588
+[Text2Img] Epoch 46/50 done - Avg D_loss: 0.2472, Avg G_loss: 3.2926
+  Batch 100/898: D_loss=0.1845, G_loss=3.3990
+  Batch 200/898: D_loss=0.3223, G_loss=2.9026
+  Batch 300/898: D_loss=0.0937, G_loss=3.6259
+  Batch 400/898: D_loss=0.2896, G_loss=1.3390
+  Batch 500/898: D_loss=0.0924, G_loss=3.7782
+  Batch 600/898: D_loss=0.2597, G_loss=2.9872
+  Batch 700/898: D_loss=0.2353, G_loss=3.2881
+  Batch 800/898: D_loss=0.0648, G_loss=3.2232
+[Text2Img] Epoch 47/50 done - Avg D_loss: 0.2475, Avg G_loss: 3.2303
+  Batch 100/898: D_loss=0.3612, G_loss=3.2201
+  Batch 200/898: D_loss=0.2872, G_loss=2.7428
+  Batch 300/898: D_loss=0.3304, G_loss=4.1471
+  Batch 400/898: D_loss=0.5029, G_loss=4.4259
+  Batch 500/898: D_loss=0.3727, G_loss=1.2316
+  Batch 600/898: D_loss=0.2549, G_loss=3.2489
+  Batch 700/898: D_loss=0.2521, G_loss=1.6723
+  Batch 800/898: D_loss=0.1327, G_loss=4.5655
+[Text2Img] Epoch 48/50 done - Avg D_loss: 0.2693, Avg G_loss: 3.2170
+  Batch 100/898: D_loss=0.1175, G_loss=3.3735
+  Batch 200/898: D_loss=0.1096, G_loss=3.5326
+  Batch 300/898: D_loss=0.3976, G_loss=2.2860
+  Batch 400/898: D_loss=0.2051, G_loss=3.9646
+  Batch 500/898: D_loss=0.5246, G_loss=4.3285
+  Batch 600/898: D_loss=0.2705, G_loss=2.9841
+  Batch 700/898: D_loss=0.3478, G_loss=4.2145
+  Batch 800/898: D_loss=0.2347, G_loss=3.3321
+[Text2Img] Epoch 49/50 done - Avg D_loss: 0.2587, Avg G_loss: 3.2576
+  Batch 100/898: D_loss=0.1864, G_loss=1.7693
+  Batch 200/898: D_loss=0.2897, G_loss=4.0296
+  Batch 300/898: D_loss=0.1852, G_loss=3.0070
+  Batch 400/898: D_loss=0.1128, G_loss=4.3084
+  Batch 500/898: D_loss=0.1101, G_loss=3.2247
+  Batch 600/898: D_loss=0.0380, G_loss=5.0335
+  Batch 700/898: D_loss=0.2330, G_loss=1.7615
+  Batch 800/898: D_loss=0.3194, G_loss=2.2444
+[Text2Img] Epoch 50/50 done - Avg D_loss: 0.2169, Avg G_loss: 3.3265
+  Saved checkpoints to experiments/exp1/checkpoints
