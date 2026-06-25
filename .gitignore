@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+*.pth
+data/fer2013/
+experiments/
+nohup.out
+training.log
+.kaggle/

@@ -1,0 +1,15 @@
+dataset_root: "data/fer2013"
+batch_size: 32
+lr: 0.0002
+epochs: 50
+device: "cuda"
+checkpoint_dir: "experiments/exp1/checkpoints"
+
+img2text:
+  latent_dim: 512
+  save_interval: 10
+
+text2img:
+  latent_dim: 512
+  ngf: 64
+  save_interval: 10
